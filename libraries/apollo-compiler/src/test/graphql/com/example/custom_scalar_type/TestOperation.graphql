@@ -1,0 +1,22 @@
+# multiple scalar fields
+query TestQuery {
+  hero {
+    id
+    name
+    birthDate
+    appearanceDates
+    fieldWithUnsupportedType
+    profileLink
+    links
+  }
+  nonNullTimestamp
+  nullableTimestamp
+  nonNullListOfNonNullTimestamp
+  nonNullListOfNullableTimestamp
+  nullableListOfNonNullTimestamp
+  nullableListOfNullableTimestamp
+}
+
+query ScalarWithGenericType {
+  listOfString
+}
