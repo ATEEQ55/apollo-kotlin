@@ -1,3 +1,0 @@
-query TestQuery($foo: Boolean! = 3) {
-    field @include(if: $foo)
-}

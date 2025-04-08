@@ -1,7 +1,0 @@
-type Query {
-    field: String
-}
-
-directive @custom on FIELD
-
-directive @customRepeatable repeatable on FIELD

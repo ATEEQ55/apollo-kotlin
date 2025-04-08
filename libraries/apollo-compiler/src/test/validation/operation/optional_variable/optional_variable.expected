@@ -1,2 +1,0 @@
-OtherValidationIssue (3:16)
-Variable `arg` of type `String` used in position expecting type `String!`

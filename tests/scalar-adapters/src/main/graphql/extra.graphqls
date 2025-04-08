@@ -1,3 +1,0 @@
-extend schema @link(url: "https://specs.apollo.dev/kotlin_labs/v0.5/", import: ["@mapTo"])
-
-extend scalar Length @mapTo(builtIn: Long)

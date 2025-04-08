@@ -1,4 +1,0 @@
-type Query {
-  random(arg: [String]): Int
-}
-

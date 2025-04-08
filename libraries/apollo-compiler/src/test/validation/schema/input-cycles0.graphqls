@@ -1,8 +1,0 @@
-type Query {
-    field(arg: SomeInputObject): String
-}
-
-# simple cycle
-input SomeInputObject {
-    nonNullSelf: SomeInputObject!
-}

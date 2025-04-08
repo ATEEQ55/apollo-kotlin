@@ -1,7 +1,0 @@
-query WithCustomDirective {
-    field @custom @custom
-}
-
-query WithCustomRepeatableDirective {
-    field @customRepeatable @customRepeatable
-}

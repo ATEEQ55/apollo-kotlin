@@ -1,3 +1,0 @@
-fragment queryDetails on Query {
-  foo
-}

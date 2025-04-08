@@ -1,2 +1,0 @@
-# extend type Playlist @typePolicy(keyFields: "playlistId")
-# extend type RawTrack @typePolicy(keyFields: "trackId")

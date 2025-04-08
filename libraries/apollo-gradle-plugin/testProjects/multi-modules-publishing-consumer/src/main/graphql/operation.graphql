@@ -1,4 +1,0 @@
-query GetField($fieldInput: FieldInput!) {
-  ...QueryDetails
-}
-
